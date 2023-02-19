@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.logo {
+    height: 20px;
+}
+
+.logo img {
+    height: 20px;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+}
