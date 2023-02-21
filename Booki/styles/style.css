@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import "./header.css";
 @import "./main.css";
 @import "./footer.css";
@@ -8,8 +9,14 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
     max-width: 1440px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
 li {
     list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
