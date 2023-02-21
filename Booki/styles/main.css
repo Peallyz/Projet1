@@ -1,0 +1,73 @@
+main .search h1 {
+    font-size: 30px;
+    margin: 0;
+}
+main .search h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form {
+    cursor: pointer;
+    display: flex;
+}
+
+form button {
+    margin: 0;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: #d9d9d9;
+}
+form input {
+    margin: 0;
+    height: 30px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 0 10px;
+}
+form input:last-of-type {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    background: #0065fc;
+    color: white;
+}
+form input:first-of-type {
+    border: none;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.filtre {
+    display: flex;
+    margin-top: 30px;
+}
+.filtre ul {
+    display: flex;
+}
+.filtre ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #d9d9d9;
+    border-radius: 99px;
+    margin-left: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.filtre ul li p {
+    margin: 0 10px;
+    font-weight: 700;
+}
+.filtre .fa-solid {
+    margin-left: 10px;
+    color: #0065fc;
+}
+
+.filtre ul li:hover {
+    background-color: #deebff;
+}
