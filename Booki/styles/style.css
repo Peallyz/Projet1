@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import "./header.css";
-@import "./main.css";
-@import "./footer.css";
+@import "./header/header.css";
+@import "./main/main.css";
+@import "./footer/footer.css";
 
 body {
     display: block;
@@ -10,6 +10,7 @@ body {
     box-sizing: border-box;
     max-width: 1440px;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
 }
 
 li {

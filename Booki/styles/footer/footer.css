@@ -1,0 +1,16 @@
+/* Test */
+
+footer{
+    background: #d9d9d9;
+    padding-right: 200px;
+}
+footer nav {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h4{
+margin-bottom: 20px;}
+footer li{
+margin-bottom: 10px;}
