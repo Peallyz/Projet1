@@ -1,0 +1,43 @@
+form {
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+form button {
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: #d9d9d9;
+}
+
+form button i {
+    font-size: 18px;
+}
+form input {
+    margin: 0;
+    height: 50px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.8em;
+    padding: 0 10px;
+}
+form input:last-of-type {
+    font-weight: 700;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    background: #0065fc;
+    color: white;
+    padding: 0 16px;
+}
+form input:first-of-type,
+form input:first-of-type:focus {
+    outline: none;
+    border: none;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}

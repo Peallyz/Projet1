@@ -1,0 +1,40 @@
+.filtre {
+    display: flex;
+    align-items: center;
+}
+
+.filtre h3 {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.filtre ul {
+    display: flex;
+    margin-left: 20px;
+    padding: 0;
+}
+.filtre ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 2px solid #d9d9d9;
+    border-radius: 99px;
+    margin-left: 20px;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    font-size: 1.7em;
+}
+.filtre ul li p {
+    margin: 0 10px;
+
+    font-weight: 700;
+}
+.filtre .fa-solid {
+    margin-left: 10px;
+    color: #0065fc;
+}
+
+.filtre ul li:hover {
+    background-color: #deebff;
+}
