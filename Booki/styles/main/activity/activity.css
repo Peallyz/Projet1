@@ -1,0 +1,41 @@
+.activity {
+    margin: 60px 0;
+}
+.activity h3 {
+    font-size: 2.2em;
+    margin-bottom: 18px;
+}
+.activity h4 {
+    font-size: 1.6em;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.activity .articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity article {
+    width: 300px;
+    height: 445px;
+    overflow: hidden;
+}
+
+.activity .img {
+    height: 400px;
+    overflow: hidden;
+}
+.activity img {
+    width: 100%;
+}
+.activity article:nth-of-type(1) img {
+    transform: translateY(120px) scale(2.2);
+}
+
+.activity article:nth-of-type(3) img {
+    transform: translateY(125px) scale(2.3);
+}
+.activity article:nth-of-type(4) img {
+    transform: translateY(120px) scale(2.3);
+}
