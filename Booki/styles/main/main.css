@@ -2,6 +2,7 @@
 @import "./search/filtre.css";
 @import "./hebergement/global.css";
 @import "./hebergement/offers.css";
+@import "./activity/activity.css";
 
 main {
     margin-top: 20px;
