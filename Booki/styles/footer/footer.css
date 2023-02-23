@@ -6,6 +6,8 @@ footer {
 footer nav {
     display: flex;
     margin-left: 70px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer h4 {
@@ -24,4 +26,27 @@ footer a {
 footer ul {
     padding: 0;
     margin-right: 240px;
+}
+
+@media screen and (max-width: 1100px) {
+    footer ul {
+        margin-right: 100px;
+    }
+}
+@media screen and (max-width: 900px) {
+    footer nav {
+        flex-wrap: wrap;
+    }
+    footer ul {
+        margin-right: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+}
+@media screen and (max-width: 500px) {
+    footer nav {
+        margin-left: 20px;
+    }
 }
