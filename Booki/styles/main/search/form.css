@@ -25,14 +25,18 @@ form input {
     font-size: 1.8em;
     padding: 0 10px;
 }
-form input:last-of-type {
+form .btn {
+    font-size: 1.8em;
     font-weight: 700;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
     border: none;
     background: #0065fc;
     color: white;
     padding: 0 16px;
+    width: auto;
 }
 form input:first-of-type,
 form input:first-of-type:focus {
@@ -40,4 +44,20 @@ form input:first-of-type:focus {
     border: none;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
+}
+
+.search form .btn.mobile {
+    display: none;
+}
+.search form .btn.desktop {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .search form .btn.mobile {
+        display: block;
+    }
+    .search form .btn.desktop {
+        display: none;
+    }
 }
