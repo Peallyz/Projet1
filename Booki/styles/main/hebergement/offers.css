@@ -44,3 +44,22 @@ article p {
 .stars i:last-of-type {
     color: #d9d9d9;
 }
+
+@media screen and (max-width: 1180px) {
+    .hebergement .offers {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .offers__main,
+    .offers__sponsored {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .offers__main {
+        margin-top: 20px;
+        order: 2;
+    }
+}
