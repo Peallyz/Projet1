@@ -1,0 +1,26 @@
+.offers__sponsored {
+    width: 30%;
+}
+.offers__sponsored--title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offers__sponsored--title i {
+    color: #0065fc;
+}
+
+.offers__sponsored article {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.offers__sponsored article .img {
+    width: 125px;
+    aspect-ratio: 1/1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: red;
+    margin-right: 10px;
+}

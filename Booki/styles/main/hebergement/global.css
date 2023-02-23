@@ -1,0 +1,23 @@
+.hebergement {
+    margin-top: 30px;
+}
+
+.hebergement h4 {
+    font-size: 1.6em;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.hebergement h4 span {
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    line-height: 23px;
+    color: #0065fc;
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+    font-size: 0.7em;
+}

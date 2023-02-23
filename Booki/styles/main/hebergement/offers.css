@@ -1,0 +1,45 @@
+@import "./offers_main.css";
+@import "./offers_sponsored.css";
+
+.hebergement .offers {
+    display: flex;
+}
+
+.offers h3 {
+    font-size: 2.2em;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.offers article {
+    background: white;
+    border-radius: 20px;
+}
+.offers__main {
+    width: 70%;
+    margin-right: 40px;
+}
+
+.offers__main,
+.offers__sponsored {
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+article h5 {
+    font-size: 1.6em;
+}
+
+article p {
+    font-size: 1.4em;
+}
+
+.stars {
+    font-size: 10px;
+    color: #0065fc;
+}
+.stars i:last-of-type {
+    color: #d9d9d9;
+}
