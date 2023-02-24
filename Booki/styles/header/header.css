@@ -58,8 +58,7 @@ header li:hover:before {
         justify-content: center;
         padding-top: 30px;
         height: 100px;
-        width: 100vw;
-        margin-left: -50px;
+        width: calc(100% - 20px);
     }
     header ul {
         width: 100vw;
