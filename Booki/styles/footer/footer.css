@@ -1,22 +1,20 @@
-/* Test */
-
 footer {
     background: #f2f2f2;
+    padding-top: 20px;
 }
 footer nav {
     display: flex;
     margin-left: 70px;
     justify-content: space-between;
-    align-items: center;
 }
 
-footer h4 {
+footer li {
+    margin-bottom: 12px;
+}
+footer li.subtitle {
     font-weight: 700;
     font-size: 1.8em;
     margin-bottom: 20px;
-}
-footer li {
-    margin-bottom: 12px;
 }
 footer a {
     font-weight: 400;
@@ -42,7 +40,6 @@ footer ul {
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: left;
     }
 }
 @media screen and (max-width: 500px) {
