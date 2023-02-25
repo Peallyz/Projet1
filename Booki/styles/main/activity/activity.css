@@ -75,7 +75,7 @@
         margin: 15px 5%;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .activity article {
         width: 335px;
         height: 190px;
