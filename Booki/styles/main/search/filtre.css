@@ -50,9 +50,11 @@
         margin-bottom: 20px;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .filtre ul li {
         font-size: 1.1em;
+        width: 160px;
+        justify-content: flex-start;
     }
     .filtre ul li p {
         margin: 0 6px;
