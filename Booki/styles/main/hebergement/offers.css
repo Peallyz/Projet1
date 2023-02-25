@@ -5,6 +5,12 @@
     display: flex;
 }
 
+.hebergement a {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: inherit;
+}
 .offers h3 {
     font-size: 2.2em;
     font-weight: 700;
@@ -35,6 +41,7 @@ article h5 {
 
 article p {
     font-size: 1.4em;
+    font-weight: 400;
 }
 
 .stars {

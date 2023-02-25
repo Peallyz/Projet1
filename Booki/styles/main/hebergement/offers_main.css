@@ -59,11 +59,12 @@
     transform: translate(70px, 5px) scale(3);
 }
 
-.offers__main a {
+.offers__main .show_more {
     display: inline-block;
     font-size: 1.8em;
     font-weight: 700;
-    margin: 30px 0;
+    margin: 40px 0px;
+    padding: 0;
 }
 
 @media screen and (max-width: 1350px) {
