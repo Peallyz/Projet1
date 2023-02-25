@@ -18,7 +18,7 @@ article {
     box-shadow: 0px 0px 10px 2px #d9d9d9;
 }
 .offers__main {
-    width: 70%;
+    width: 75%;
     margin-right: 40px;
 }
 
@@ -58,21 +58,20 @@ article p {
         height: auto;
         margin: 0;
         padding: 40px 0 0 40px;
+        box-sizing: border-box;
     }
 
-    .offers__main {
-        margin-top: 20px;
-        order: 2;
-        background: white;
+    .offers__sponsored {
+        margin-top: 40px;
+        padding: 40px;
     }
 }
-@media screen and (max-width: 1180px) {
-    .offers__main,
-    .offers__sponsored {
-        width: 100%;
-        height: auto;
-        margin: 0;
-        padding: 40px 20px 0 20px;
-        border-radius: 0px;
+@media screen and (max-width: 768px) {
+    .offers__main {
+        margin: 20px 0;
+        padding-left: 0;
+        order: 2;
+        background: white;
+        border-radius: 0;
     }
 }

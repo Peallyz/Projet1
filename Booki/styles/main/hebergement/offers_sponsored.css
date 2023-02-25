@@ -1,5 +1,5 @@
 .offers__sponsored {
-    width: 30%;
+    width: 25%;
 }
 .offers__sponsored--title {
     display: flex;
@@ -51,4 +51,26 @@
 
 .offers__sponsored article img {
     width: 100%;
+}
+
+@media screen and (max-width: 1180px) {
+    .offers__sponsored article {
+        width: 30%;
+    }
+
+    .offers__sponsored .articles {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 768px) {
+    .offers__sponsored .articles {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .offers__sponsored article {
+        width: 100%;
+    }
 }
