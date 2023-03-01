@@ -81,4 +81,8 @@ article p {
         background: white;
         border-radius: 0;
     }
+    .offers__sponsored {
+        width: 100vw;
+        border-radius: 0;
+    }
 }
