@@ -41,6 +41,12 @@
     background-color: #deebff;
 }
 
+@media screen and (max-width: 1024px) {
+    .filtre ul li {
+        margin-bottom: 20px;
+        padding: 0 15px;
+    }
+}
 @media screen and (max-width: 980px) {
     .filtre {
         flex-direction: column;
@@ -53,10 +59,13 @@
 @media screen and (max-width: 768px) {
     .filtre ul li {
         font-size: 1.1em;
+        max-width: 160px;
         width: 160px;
         justify-content: flex-start;
+        box-sizing: border-box;
+        margin-right: 5px;
     }
     .filtre ul li p {
-        margin: 0 6px;
+        margin: 0 5px;
     }
 }
