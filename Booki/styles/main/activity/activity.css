@@ -5,11 +5,14 @@
     font-size: 2.2em;
     margin-bottom: 18px;
 }
+.activity .title {
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
 .activity h4 {
     font-size: 1.6em;
-    margin-top: 18px;
-    margin-left: 20px;
-    height: 55px;
+    margin: 0 25px 0 20px;
 }
 
 .activity .articles {
@@ -20,7 +23,7 @@
 .activity article {
     width: 20%;
     aspect-ratio: 2/3;
-    max-width: 300px;
+    max-width: 350px;
     max-height: 445px;
     overflow: hidden;
 }
@@ -86,7 +89,7 @@
         transform: translate(30px, 30px) scale(2);
     }
     .activity article:nth-of-type(2) img {
-        transform: translate(100px, 0px) scale(3.5);
+        transform: translate(120px, 0px) scale(4);
     }
 
     .activity article:nth-of-type(3) img {
