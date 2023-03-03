@@ -1,64 +1,65 @@
 form {
-    cursor: pointer;
-    display: flex;
-    margin-bottom: 30px;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 30px;
 }
 
 form button {
-    margin: 0;
-    height: 50px;
-    width: 50px;
-    border: none;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background: #f2f2f2;
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background: #f2f2f2;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 
 form button i {
-    font-size: 18px;
+  font-size: 18px;
 }
 form input {
-    margin: 0;
-    height: 50px;
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 1.8em;
-    padding: 0 10px;
+  margin: 0;
+  height: 50px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 1.8em;
+  padding: 0 10px;
 }
 form .btn {
-    font-size: 1.8em;
-    font-weight: 700;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
-    border: none;
-    background: #0065fc;
-    color: white;
-    padding: 0 16px;
-    width: auto;
+  font-size: 1.8em;
+  font-weight: 700;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border: none;
+  background: #0065fc;
+  color: white;
+  padding: 0 16px;
+  width: auto;
 }
 form input:first-of-type,
 form input:first-of-type:focus {
-    outline: none;
-    border: none;
-    border-top: 1px solid #f2f2f2;
-    border-bottom: 1px solid #f2f2f2;
+  outline: none;
+  border: none;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .search form .btn.mobile {
-    display: none;
+  display: none;
 }
 .search form .btn.desktop {
-    display: block;
+  display: block;
 }
 
 @media screen and (max-width: 600px) {
-    .search form .btn.mobile {
-        display: block;
-    }
-    .search form .btn.desktop {
-        display: none;
-    }
+  .search form .btn.mobile {
+    display: block;
+  }
+  .search form .btn.desktop {
+    display: none;
+  }
 }
