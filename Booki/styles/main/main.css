@@ -5,15 +5,21 @@
 @import "./activity/activity.css";
 
 main {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 main .search h1 {
-    font-size: 2.6em;
-    font-weight: 700;
-    margin: 0;
+  font-size: 2.6em;
+  font-weight: 700;
+  margin: 0;
 }
 main .search h2 {
-    font-size: 1.6em;
-    font-weight: 400;
-    margin: 10px 0 20px 0;
+  font-size: 1.6em;
+  font-weight: 400;
+  margin: 10px 0 20px 0;
+}
+
+@media screen and (max-width: 764px) {
+  main .search h1 {
+    font-size: 2.2em;
+  }
 }
