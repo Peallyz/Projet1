@@ -1,88 +1,88 @@
 @import "./offers_main.css";
 @import "./offers_sponsored.css";
 
-.hebergement .offers {
-    display: flex;
+.lodging .offers {
+  display: flex;
 }
 
-.hebergement a {
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    padding: inherit;
+.lodging a {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: inherit;
 }
 .offers h3 {
-    font-size: 2.2em;
-    font-weight: 700;
-    margin: 0;
-    margin-bottom: 5px;
+  font-size: 2.2em;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 5px;
 }
 
 article {
-    background: white;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px 2px #d9d9d9;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 2px #d9d9d9;
 }
 .offers__main {
-    width: 75%;
-    margin-right: 40px;
+  width: 75%;
+  margin-right: 40px;
 }
 
 .offers__main,
 .offers__sponsored {
-    background-color: #f2f2f2;
-    border-radius: 20px;
-    padding: 40px 40px 0 40px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 40px 40px 0 40px;
 }
 
 article h5 {
-    font-size: 1.6em;
+  font-size: 1.6em;
 }
 
 article p {
-    font-size: 1.4em;
-    font-weight: 400;
+  font-size: 1.4em;
+  font-weight: 400;
 }
 
 .stars {
-    font-size: 10px;
-    color: #0065fc;
+  font-size: 10px;
+  color: #0065fc;
 }
 .stars i:last-of-type {
-    color: #d9d9d9;
+  color: #d9d9d9;
 }
 
 @media screen and (max-width: 1180px) {
-    .hebergement .offers {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-    .offers__main,
-    .offers__sponsored {
-        width: 100%;
-        height: auto;
-        margin: 0;
-        padding: 40px 0 0 40px;
-        box-sizing: border-box;
-    }
+  .lodging .offers {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .offers__main,
+  .offers__sponsored {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 40px 0 0 40px;
+    box-sizing: border-box;
+  }
 
-    .offers__sponsored {
-        margin-top: 40px;
-        padding: 40px;
-    }
+  .offers__sponsored {
+    margin-top: 40px;
+    padding: 40px;
+  }
 }
 @media screen and (max-width: 768px) {
-    .offers__main {
-        margin: 20px 0;
-        padding-left: 0;
-        order: 2;
-        background: white;
-        border-radius: 0;
-    }
-    .offers__sponsored {
-        width: 100vw;
-        border-radius: 0;
-    }
+  .offers__main {
+    margin: 20px 0;
+    padding-left: 0;
+    order: 2;
+    background: white;
+    border-radius: 0;
+  }
+  .offers__sponsored {
+    width: 100vw;
+    border-radius: 0;
+  }
 }

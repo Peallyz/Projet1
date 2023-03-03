@@ -1,19 +1,19 @@
-.filtre {
+.filter {
   display: flex;
   align-items: center;
 }
 
-.filtre h3 {
+.filter h3 {
   font-size: 1.8em;
   font-weight: 700;
   margin-right: 40px;
 }
-.filtre ul {
+.filter ul {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
 }
-.filtre ul li {
+.filter ul li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,37 +27,37 @@
   font-size: 1.7em;
   white-space: nowrap;
 }
-.filtre ul li p {
+.filter ul li p {
   margin: 0 10px;
 
   font-weight: 700;
 }
-.filtre .fa-solid {
+.filter .fa-solid {
   margin-left: 10px;
   color: #0065fc;
 }
 
-.filtre ul li:hover {
+.filter ul li:hover {
   background-color: #deebff;
 }
 
 @media screen and (max-width: 1024px) {
-  .filtre ul li {
+  .filter ul li {
     margin-bottom: 20px;
     padding: 0 15px;
   }
 }
 @media screen and (max-width: 980px) {
-  .filtre {
+  .filter {
     flex-direction: column;
     align-items: baseline;
   }
-  .filtre ul li {
+  .filter ul li {
     margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 768px) {
-  .filtre ul li {
+  .filter ul li {
     font-size: 1.4em;
     max-width: 160px;
     width: 160px;
@@ -65,7 +65,7 @@
     box-sizing: border-box;
     margin-right: 5px;
   }
-  .filtre ul li p {
+  .filter ul li p {
     margin: 0 5px;
   }
 }
