@@ -3,6 +3,9 @@
 @import "./main/main.css";
 @import "./footer/footer.css";
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   display: block;
   margin: auto;
