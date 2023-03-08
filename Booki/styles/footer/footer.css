@@ -29,6 +29,8 @@ footer ul {
 @media screen and (max-width: 1024px) {
   footer ul {
     justify-content: space-between;
+    width: calc(100% / 3);
+    margin-right: 0;
   }
   footer nav {
     flex-wrap: wrap;
@@ -41,7 +43,6 @@ footer ul {
   }
   footer ul {
     width: 100%;
-    margin-right: 0;
     display: flex;
     flex-direction: column;
   }
