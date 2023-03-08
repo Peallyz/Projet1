@@ -81,6 +81,7 @@
 
   .offers__sponsored .articles {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-top: 15px;
@@ -101,7 +102,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .offers__sponsored .articles a {
     margin: 10px 0;
     padding: 0;
@@ -114,9 +115,6 @@
     align-items: center;
     justify-content: center;
   }
-}
-
-@media screen and (max-width: 768px) {
   .offers__sponsored article {
     width: 100%;
     margin: 15px 7px;
