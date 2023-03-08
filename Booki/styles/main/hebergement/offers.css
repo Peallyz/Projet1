@@ -52,7 +52,7 @@ article p {
   color: #d9d9d9;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1024px) {
   .lodging .offers {
     flex-direction: column;
     align-items: center;

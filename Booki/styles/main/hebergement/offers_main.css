@@ -80,15 +80,16 @@
     margin: 15px 15px;
   }
 }
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1024px) {
   .offers__main .articles {
     justify-content: space-evenly;
+    margin: 0 15px;
   }
   .offers__main .articles article {
     margin: 15px 5px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .offers__main a {
     width: fit-content;
     min-width: none;

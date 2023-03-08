@@ -46,15 +46,12 @@
     margin-bottom: 20px;
     padding: 0 15px;
   }
-}
-@media screen and (max-width: 980px) {
   .filter {
     flex-direction: column;
     align-items: baseline;
   }
-  .filter ul li {
-    margin-bottom: 20px;
-  }
+}
+@media screen and (max-width: 980px) {
 }
 @media screen and (max-width: 768px) {
   .filter ul li {
