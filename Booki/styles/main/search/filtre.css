@@ -51,8 +51,7 @@
     align-items: baseline;
   }
 }
-@media screen and (max-width: 980px) {
-}
+
 @media screen and (max-width: 768px) {
   .filter ul li {
     font-size: 1.4em;
