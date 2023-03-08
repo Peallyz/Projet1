@@ -4,26 +4,26 @@
 @import "./footer/footer.css";
 
 body {
-    display: block;
-    margin: auto;
-    padding: 0 50px;
-    box-sizing: border-box;
-    max-width: 1440px;
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
-    font-size: 62.5%;
+  display: block;
+  margin: auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+  max-width: 1440px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {
-    body {
-        padding: 0 20px;
-    }
+  body {
+    padding: 0 20px;
+  }
 }
